@@ -755,3 +755,15 @@ header {
 .navbar-custom .nav li a {
   color: #FFFFFF;
 }
+
+
+
+.btn-xl {
+  background-color: #6B96F2;
+  border-color: #6B96F2;
+}
+
+.btn-xl:hover {
+  background-color: #22499C;
+  border-color: #22499C;
+}

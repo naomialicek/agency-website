@@ -28,13 +28,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: #6B96F2;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #6B96F2;
 }
 h1,
 h2,
@@ -103,7 +103,7 @@ fieldset[disabled] .btn-primary.active {
   color: white;
   background-color: #fed136;
   border-color: #fed136;
-  font-family: "Vidaloka", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Old Standard TT", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 3px;
@@ -164,8 +164,8 @@ fieldset[disabled] .btn-xl.active {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #6B96F2;
+  border-color: #6B96F2;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -173,7 +173,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #22499C;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -757,7 +757,6 @@ header {
 }
 
 
-
 .btn-xl {
   background-color: #6B96F2;
   border-color: #6B96F2;
@@ -768,18 +767,46 @@ header {
   border-color: #22499C;
 }
 
+
+::selection {
+  background: #9FBBF5; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #9FBBF5; /* Gecko Browsers */
+}
+
+
 .navbar-brand {
-  font-family: "Vidaloka" !important;
+  font-family: "Josefin Slab" !important;
 }
 
 .navbar-nav li a {
-  font-family: "Arapey" !important;
+  font-family: "Josefin Slab" !important;
 }
 
 .intro-lead-in {
-  font-family: "Vidaloka" !important;
+  font-family: "Old Standard TT" !important;
 }
 
 .intro-heading {
-  font-family: "Arapey" !important;
+  font-family: "Old Standard TT" !important;
 }
+
+
+
+.text-muted {
+  font-family: "Alegreya" !important;
+}
+
+.section-heading {
+  font-family: "Old Standard TT" !important;
+}
+
+.service-heading {
+  font-family: "Old Standard TT" !important;
+}
+
+.btn-xl {
+  font-family: "Josefin Slab" !important;
+}
+
